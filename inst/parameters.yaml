@@ -1,0 +1,56 @@
+# Set parameter
+CUSTOMER_ID_COLUMN: "F3200_Bp_ID"
+TIME_COLUMN: "F3207_Cardtrx_Zeit"
+AMOUNT_COLUMN: "F3207_Nettobetrag_Kunde_CHF"
+LOCATION_COLUMN: "F3207_PIA_Bezugsort"
+ALT_LOCATION_COLUMN: "F3207_Cardtrx_Ort"
+BOOKING_COLUMN: "F3207_PIA_Buchungstext"
+GOOGLE_COLUMN: "google_types"
+LAT_COLUMN: "GeoDaten_lat"
+LON_COLUMN: "GeoDaten_lng"
+SWISS_BUFFER: 50000
+MISSING_THRESHOLD_PCT: 10
+
+# Set paths
+DATA_PATH: "test_data_ptc_TRX_MIT_KUNDE_20210525.xlsx"
+DATA_PATH_DB: "kbda_lab.dbo.tmp_AKB_kunden_mitTRX"
+
+INPUTS_PATH: "inst" #paste(getwd() "inputs", sep: "/")
+RASTERSTACK_PATH: "inst/rasterstack_ch" #paste(getwd(), "inputs","rasterstack_ch", sep: "/")
+OUT_PATH: "geo_features.csv"
+OUT_DB: "tmp_AKB_kunden_mitTRX_output"
+
+# Set features
+RASTERS:
+  - "Demography_HouseholdsDensityKmDiff_500vs2000m"
+  - "Demography_HouseholdsDensityKm_2km"
+  - "Demography_HouseholdsSizeAverage_2km"
+  - "Demography_PopAgeShare00to05_2km"
+  - "Demography_PopAgeShare05to20_2km"
+  - "Demography_PopAgeShare20to40_2km"
+  - "Demography_PopAgeShare40to60_2km"
+  - "Demography_PopAgeShare60to80_2km"
+  - "Demography_PopAgeShare80to100_2km"
+  - "Demography_PopBornSwissGemeindeShare_2km"
+  - "Demography_PopBornSwissShare_2km"
+  - "Demography_PopDensityKmDiff_500vs2000m"
+  - "Demography_PopDensityKm_2km"
+  - "Demography_PopLocalPresenceSince00to05_2km"
+  - "Demography_PopLocalPresenceSinceBirth_2km"
+  - "Economy_DistanceHighway"
+  - "Economy_ImmoPriceBuyM2"
+  - "Economy_ImmoPriceRentM2"
+  - "Economy_POI_Trainstations_1km"
+  - "Economy_POI_Bars_1km"
+  - "Economy_POI_Delis_1km"
+  - "Economy_POI_Traffic_1km"
+  - "Economy_POI_Individualsports_1km"
+  - "Geography_PopHightDiff_500vs2000m"
+  - "Geography_Hight"
+  - "Landcover_Agriculture_cover_5km"
+  - "Landcover_Artificial_cover_5km"
+  - "Landcover_Sidewalk_cover_1km"
+  - "Landcover_Pedestrianzone_cover_1km"
+  - "Landcover_Streets_cover_1km"
+  - "Landcover_Trees_cover_1km"
+  - "Landcover_Water_cover_5km"

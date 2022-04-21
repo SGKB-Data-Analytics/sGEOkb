@@ -1,0 +1,19 @@
+{
+
+"groceries": ["grocery_or_supermarket", "supermarket"],
+"shopping": ["shopping_mall", "store", "clothing_store", "shoe_store", "jewelry_store", "book_store", "department_store", "liquor_store", "electronics_store"],
+"selfcare": ["selfcare", "hospital", "hair_care", "pharmacy", "beauty", "doctor", "health", "drugstore", "gym", "spa", "dentist"],
+"house_and_home": ["hardware_store", "home_goods_store", "furniture_store", "florist"],
+"restaurant": ["restaurant"],
+"cafe": ["cafeteria", "cafe", "bakery"],
+"car": ["car_wash", "car_dealer", "car_repair"],
+"gas": ["gas_station"],
+"bank": ["bank", "atm"],
+"hotel": ["hotel"],
+"parking": ["parking"],
+"sbb": ["train_station", "transit_station"],
+"post": ["post_office"],
+"kiosk": ["convenience_store"],
+"pub": ["bar", "pub", "night_club"],
+ "internet": [], "cash": []
+}

@@ -1,0 +1,46 @@
+Package: sGEOkb
+Title: Extract features from credit card transaction data.
+Version: 0.2.2
+Authors@R: 
+    person(given = "Lukas",
+           family = "Bretzinger",
+           role = c("aut", "cre"),
+           email = "lbretzinger@positivethinking.tech")
+    person(given = "Georg",
+           family = "Helbing",
+           role = c("aut", "cre"),
+           email = "ghelbing@positivethinking.tech")
+Description: What the package does (one paragraph).
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+    futile.logger,
+    timeDate,
+    readxl,
+    stringr,
+    jsonlite,
+    geojsonsf,
+    classInt,
+    units,
+    sf,
+    sp,
+    rgdal,
+    raster,
+    s2,
+    geodist,
+    DBI,
+    backports,
+    vctrs,
+    odbc,
+    yaml,
+    crayon,
+    dplyr,
+    RSQLite
+Imports: 
+    data.table
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -1,0 +1,18 @@
+{
+"internet": ["wish\\.com", "adobe","msbill", "apple\\.com", "eat\\.ch", "zattoo", "\\.com", "\\.ch", "\\.de", "\\.fr", "\\.it", "www\\.", "\\.at", "lieferpoint", "playstation","xbox","facebook","password", "shutterstock"], 
+"sbb": ["sbb", "bundesbahn", "db automat", "bahn", "tarifverbund", "talstation", "vbz", "vbsg", "verkehr","train"], 
+"pub": [" pub ", "jatzhutte", "kneipe", " bar "], 
+"post": ["post ch"], 
+"hotel": ["hotel", "pension", " bnb ", "hostal", "camping", "campeggio"], 
+"parking": ["parkhaus", "parking"], 
+"cafe": ["cafe", "cafeteria", "starbucks", "bäckerei", "backerei", "baecker", "confiser", "selecta", "steiner", "gelaterie"], 
+"restaurant": ["gasthof", "wirtschaft", "rest\\.", "restauran", "ristorant", "burger ", "mcd", "kfc ", "mcdonalds", "imbiss", "marche", "catering", "pizzeria","grill","steak", "pizza", "bktl ", " soup"], 
+"selfcare": ["apotheke", "spital","reform", "muller handel", "drogerie", "coiffeur", "coiffure", "friseur", "body ", "parfuem", "impo\\-", "kosmetik", "beauty", "nails", "hair", "amavita", "casa arte", "manuela"], 
+"house_and_home": ["gartnerei", "garten", "moebel","möbel", "mobel","degin", "gärtnerei", "obi ", "landi", "ikea", "bauhaus", "interdiscount", "media markt", "jumbomarkt","jumbo\\-markt", "qualipet", "orell", "depot ag", "zab,", "verwert"], 
+"groceries": ["supermarkt", "migros", "coop", "biomarkt", "volg", "lidl", "aldi", "denner", "topcc", "spar", "interspar", "metzgerei", "bofrost", "dorfmetzg", "bacio ", "poschta", "carna", "dorsin", "markt", "getraenke", "feinkost", "suttero", "cc aligro", "frisch"], 
+"gas": ["tankst", "tankstelle", "bp ", "shell", "avia", "migrol", "agrola", " eni ", "rüssel", "red fox", "tamoil", " oil ", "voegtlin", "omv ", "socar", " ley "], 
+"shopping": ["mall", "manor", "mode ", " mode", "apple", "h & m","zara ", "c & a", "fashio", "otto's", "globus", "boutique", "schuhhaus", "schuhe", "shoes", "outlet", "new yorker", "sport", "calida", " nike", "esprit", "primigi", "cos store", "western store", "decathlon", "marc o"], 
+"state": ["polizei", "zoll", "amt ", "gemeinde"], 
+"bank": ["biz ", " bank ", "ubs ", "sparkasse ", "rb ", "akb ", "gkb ", "zkb "], 
+"kiosk": ["migrolino", "kiosk", "avec", "iqos"], 
+"cash": []}
